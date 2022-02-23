@@ -11,14 +11,14 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-documentation": "^4.1.0",
+    "@strapi/plugin-documentation": "4.1.0",
     "@strapi/plugin-i18n": "4.1.0",
     "@strapi/plugin-users-permissions": "4.1.0",
     "@strapi/strapi": "4.1.0",
     "sqlite3": "5.0.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Tawanda G Mavondo https://github.com/TawandaMavondo"
   },
   "strapi": {
     "uuid": "3ecd764a-18b6-4214-97b2-1ed9ca8b6d5a"
