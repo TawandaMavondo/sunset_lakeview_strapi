@@ -16,7 +16,8 @@
     "@strapi/plugin-users-permissions": "4.1.0",
     "@strapi/strapi": "4.1.0",
     "mysql": "^2.18.1",
-    "sqlite3": "5.0.2"
+    "sqlite3": "5.0.2",
+    "stripe": "^8.204.0"
   },
   "author": {
     "name": "Tawanda G Mavondo https://github.com/TawandaMavondo"
