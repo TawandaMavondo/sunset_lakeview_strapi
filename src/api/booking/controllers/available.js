@@ -11,8 +11,10 @@ module.exports = {
       // console.log(ctx.request.body);
       const { checkIn, checkOut, room } = ctx.request.body;
 
-      const entity = await strapi.service("api::booking.booking").validate(checkIn,checkOut,room);
-
+      const response = await strapi
+        .service("api::booking.booking")
+        .checkAvailability(checkIn, checkOut, room);
+      console.log(response);
     } catch (err) {
       ctx.body = err;
     }

@@ -6,8 +6,15 @@
 
 const { createCoreService } = require("@strapi/strapi").factories;
 
+function calculateTimeStamp(date) {
+  return new Date(date).getTime();
+}
+function between(value, min, max) {
+  return value > min && value < max;
+}
+
 module.exports = createCoreService("api::booking.booking", ({ strapi }) => ({
-  async validate(checkIn, checkOut, roomId) {
+  async checkAvailability(checkIn, checkOut, roomId) {
     const parameters = {
       filters: {
         $and: [
@@ -20,11 +27,28 @@ module.exports = createCoreService("api::booking.booking", ({ strapi }) => ({
         ],
       },
     };
-    const entity = await strapi.entityService.findMany(
-      "api::booking.booking",
-      parameters
+    const checkInTimeStamp = calculateTimeStamp(checkIn);
+    const checkOutTimeStamp = calculateTimeStamp(checkOut);
+
+    const entities = await strapi.entityService.findMany(
+      "api::booking.booking"
     );
 
-    console.log(entity);
+    const filtered = entities.filter((element) => {
+      return (
+        between(
+          checkInTimeStamp,
+          calculateTimeStamp(element.checkIn),
+          calculateTimeStamp(element.checkOut)
+        ) ||
+        between(
+          checkOutTimeStamp,
+          calculateTimeStamp(element.checkIn),
+          calculateTimeStamp(element.checkOut)
+        )
+      );
+    });
+
+    return filtered.length > 0 ? false : true;
   },
 }));
