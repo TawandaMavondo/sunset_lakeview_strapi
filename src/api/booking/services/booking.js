@@ -10,7 +10,7 @@ function calculateTimeStamp(date) {
   return new Date(date).getTime();
 }
 function between(value, min, max) {
-  return value > min && value < max;
+  return value >= min && value <= max;
 }
 
 module.exports = createCoreService("api::booking.booking", ({ strapi }) => ({
