@@ -1,9 +1,14 @@
-'use strict';
+"use strict";
 
 /**
  *  booking controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::booking.booking');
+module.exports = createCoreController("api::booking.booking", ({ strapi }) => ({
+    
+  validate() {
+    strapi.service("api::booking.booking").validate();
+  },
+}));

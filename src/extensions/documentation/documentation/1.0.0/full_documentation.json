@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-03-10T21:25:58.905Z"
+    "x-generation-date": "2022-03-11T10:00:54.083Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1160,7 +1160,7 @@
                               },
                               "checkIn": {
                                 "type": "string",
-                                "format": "date-time"
+                                "format": "date"
                               },
                               "checkOut": {
                                 "type": "string",
@@ -2589,7 +2589,7 @@
                             },
                             "checkIn": {
                               "type": "string",
-                              "format": "date-time"
+                              "format": "date"
                             },
                             "checkOut": {
                               "type": "string",
@@ -2829,7 +2829,7 @@
                       },
                       "checkIn": {
                         "type": "string",
-                        "format": "date-time"
+                        "format": "date"
                       },
                       "checkOut": {
                         "type": "string",
@@ -3990,7 +3990,7 @@
                             },
                             "checkIn": {
                               "type": "string",
-                              "format": "date-time"
+                              "format": "date"
                             },
                             "checkOut": {
                               "type": "string",
@@ -5328,7 +5328,7 @@
                             },
                             "checkIn": {
                               "type": "string",
-                              "format": "date-time"
+                              "format": "date"
                             },
                             "checkOut": {
                               "type": "string",
@@ -5579,7 +5579,7 @@
                       },
                       "checkIn": {
                         "type": "string",
-                        "format": "date-time"
+                        "format": "date"
                       },
                       "checkOut": {
                         "type": "string",

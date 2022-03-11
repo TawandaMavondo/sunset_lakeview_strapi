@@ -1110,7 +1110,7 @@
                               },
                               "checkIn": {
                                 "type": "string",
-                                "format": "date-time"
+                                "format": "date"
                               },
                               "checkOut": {
                                 "type": "string",
@@ -2539,7 +2539,7 @@
                             },
                             "checkIn": {
                               "type": "string",
-                              "format": "date-time"
+                              "format": "date"
                             },
                             "checkOut": {
                               "type": "string",
@@ -2779,7 +2779,7 @@
                       },
                       "checkIn": {
                         "type": "string",
-                        "format": "date-time"
+                        "format": "date"
                       },
                       "checkOut": {
                         "type": "string",
@@ -3940,7 +3940,7 @@
                             },
                             "checkIn": {
                               "type": "string",
-                              "format": "date-time"
+                              "format": "date"
                             },
                             "checkOut": {
                               "type": "string",
@@ -5278,7 +5278,7 @@
                             },
                             "checkIn": {
                               "type": "string",
-                              "format": "date-time"
+                              "format": "date"
                             },
                             "checkOut": {
                               "type": "string",
@@ -5529,7 +5529,7 @@
                       },
                       "checkIn": {
                         "type": "string",
-                        "format": "date-time"
+                        "format": "date"
                       },
                       "checkOut": {
                         "type": "string",

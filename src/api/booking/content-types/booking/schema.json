@@ -18,7 +18,7 @@
       "target": "api::room.room"
     },
     "checkIn": {
-      "type": "datetime"
+      "type": "date"
     },
     "checkOut": {
       "type": "date"
