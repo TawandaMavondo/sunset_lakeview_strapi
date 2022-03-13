@@ -22,7 +22,5 @@ module.exports = createCoreController("api::booking.booking", ({ strapi }) => ({
       isAvailable: isAvailable,
     };
     ctx.response.status = 400;
-
-    // return response;
   },
 }));
