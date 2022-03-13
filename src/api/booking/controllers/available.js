@@ -1,6 +1,6 @@
 "use strict";
 
-const checkNotNull = require("../../../utils/check");
+const checkNotNullOrUndifined = require("../../../utils/check");
 
 /**
  * A set of functions called "actions" for `available`
@@ -10,9 +10,9 @@ module.exports = {
   index: async (ctx, next) => {
     try {
       const { checkIn, checkOut, room } = ctx.request.body.data;
-      checkNotNull(checkIn, "checkIn field is required");
-      checkNotNull(checkOut, "checkOut field is required");
-      checkNotNull(room, "room field is required");
+      checkNotNullOrUndifined(checkIn, "checkIn field is required");
+      checkNotNullOrUndifined(checkOut, "checkOut field is required");
+      checkNotNullOrUndifined(room, "room field is required");
 
       const response = await strapi
         .service("api::booking.booking")
