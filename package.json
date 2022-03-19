@@ -15,7 +15,10 @@
     "@strapi/plugin-i18n": "4.1.0",
     "@strapi/plugin-users-permissions": "4.1.0",
     "@strapi/strapi": "4.1.0",
-    "sqlite3": "5.0.2"
+    "mysql": "^2.18.1",
+    "pg": "^8.7.3",
+    "sqlite3": "5.0.2",
+    "stripe": "^8.204.0"
   },
   "author": {
     "name": "Tawanda G Mavondo https://github.com/TawandaMavondo"
