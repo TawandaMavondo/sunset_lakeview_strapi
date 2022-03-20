@@ -15,6 +15,7 @@ const path = require("path");
 //     useNullAsDefault: true,
 //   },
 // });
+
 module.exports = ({ env }) => ({
   connection: {
     client: 'sqlite',
