@@ -21,9 +21,6 @@ module.exports = {
       ctx.body = {
         isAvailable: response,
       };
-      if (!response) {
-        ctx.response.status = 400;
-      }
     } catch (err) {
       ctx.body = err.message;
       ctx.response.status = 400;
