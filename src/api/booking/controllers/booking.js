@@ -23,6 +23,7 @@ module.exports = createCoreController("api::booking.booking", ({ strapi }) => ({
       const isAvailable = await strapi
         .service("api::booking.booking")
         .checkAvailability(checkIn, checkOut, room);
+
       if (isAvailable) {
         const payload = {
           address,
@@ -32,8 +33,10 @@ module.exports = createCoreController("api::booking.booking", ({ strapi }) => ({
           city,
           state,
         };
-       
-        if (isAvailable) {
+        const payment = await strapi
+          .service("api::booking.booking")
+          .payment(payload);
+        if (payment) {
           const response = await super.create(ctx);
           return response;
         }
@@ -41,6 +44,7 @@ module.exports = createCoreController("api::booking.booking", ({ strapi }) => ({
       ctx.body = {
         isAvailable: isAvailable,
       };
+      ctx.response.status = 400;
     } catch (e) {
       console.log(e);
     }
