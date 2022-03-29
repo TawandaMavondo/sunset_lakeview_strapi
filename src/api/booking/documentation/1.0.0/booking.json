@@ -1120,6 +1120,15 @@
                                 "type": "string",
                                 "format": "date"
                               },
+                              "fullName": {
+                                "type": "string"
+                              },
+                              "phoneNumber": {
+                                "type": "string"
+                              },
+                              "email": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -2549,6 +2558,15 @@
                               "type": "string",
                               "format": "date"
                             },
+                            "fullName": {
+                              "type": "string"
+                            },
+                            "phoneNumber": {
+                              "type": "string"
+                            },
+                            "email": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -2788,6 +2806,15 @@
                       "bookedAt": {
                         "type": "string",
                         "format": "date"
+                      },
+                      "fullName": {
+                        "type": "string"
+                      },
+                      "phoneNumber": {
+                        "type": "string"
+                      },
+                      "email": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -3949,6 +3976,15 @@
                             "bookedAt": {
                               "type": "string",
                               "format": "date"
+                            },
+                            "fullName": {
+                              "type": "string"
+                            },
+                            "phoneNumber": {
+                              "type": "string"
+                            },
+                            "email": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -5288,6 +5324,15 @@
                               "type": "string",
                               "format": "date"
                             },
+                            "fullName": {
+                              "type": "string"
+                            },
+                            "phoneNumber": {
+                              "type": "string"
+                            },
+                            "email": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5538,6 +5583,15 @@
                       "bookedAt": {
                         "type": "string",
                         "format": "date"
+                      },
+                      "fullName": {
+                        "type": "string"
+                      },
+                      "phoneNumber": {
+                        "type": "string"
+                      },
+                      "email": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
