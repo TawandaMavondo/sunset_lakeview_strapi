@@ -18,11 +18,13 @@
     "knex": "^1.0.4",
     "mysql": "^2.18.1",
     "pg": "^8.7.3",
-    "sqlite3": "5.0.2",
+    "sqlite3": "5.0.8",
     "stripe": "^8.204.0"
   },
   "author": {
-    "name": "Tawanda G Mavondo https://github.com/TawandaMavondo"
+    "name": "Tawanda G Mavondo https://github.com/TawandaMavondo",
+    "email": "tawandagdmavondo@gmail.com",
+    "url": "http://tawandamavondo.co.zw"
   },
   "strapi": {
     "uuid": "3ecd764a-18b6-4214-97b2-1ed9ca8b6d5a"
