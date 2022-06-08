@@ -5,6 +5,8 @@ services:
     image: strapi/strapi
     container_name: sunsetlakeview
     restart: unless-stopped
+    depends_on:
+      - db
     env_file: .env
     environment:
       DATABASE_CLIENT: ${DATABASE_CLIENT}
@@ -13,29 +15,28 @@ services:
       DATABASE_PORT: ${DATABASE_PORT}
       DATABASE_USERNAME: ${DATABASE_USERNAME}
       DATABASE_PASSWORD: ${DATABASE_PASSWORD}
-    #    links:
-    #      - mongo:mongo
+      PORT: ${PORT}
+      STRIPE_API_KEY: ${STRIPE_API_KEY}
+      JWT_SECRET: ${JWT_SECRET}
+      APP_KEYS: ${APP_KEYS}
+ 
     networks:
       - strapi-app-network
     volumes:
       - ./app:/srv/app
     ports:
       - "1337:1337"
-
-  mongoexample:
-    image: mongo
-    container_name: mongoexample
-    restart: unless-stopped
+  db:
+    image: postgres:14.1-alpine
+    restart: always
     env_file: .env
     environment:
-      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
-      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
-    networks:
-      - strapi-app-network
-    volumes:
-      - strapidata:/data/db
+      - POSTGRES_USER=${DATABASE_USERNAME}
+      - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
     ports:
-      - "27017:27017"
+      - '5432:5432'
+    volumes: 
+      - db:/var/lib/postgresql/data
 
 networks:
   strapi-app-network:
@@ -43,3 +44,5 @@ networks:
 
 volumes:
   strapidata:
+  db:
+    driver: local

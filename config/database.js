@@ -10,20 +10,13 @@ module.exports = ({ env }) => ({
       user: env("DATABASE_USERNAME", "strapi"),
       password: env("DATABASE_PASSWORD", ""),
       debug: true,
-      ssl: {
-        rejectUnauthorized: false
-      },
-      // ssl: true,
+      // ssl: {
+      //   rejectUnauthorized: false
+      // },
+      ssl: true,
     },
+    
   },
 });
 
-// module.exports = ({ env }) => ({
-//   connection: {
-//     client: 'sqlite',
-//     connection: {
-//       filename: path.join(__dirname, '..', env('DATABASE_FILENAME', '.tmp/data.db')),
-//     },
-//     useNullAsDefault: true,
-//   },
-// });
+
