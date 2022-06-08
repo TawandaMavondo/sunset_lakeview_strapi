@@ -16,4 +16,4 @@ ENV GENERATE_SOURCEMAP false
 RUN yarn build --no-optimization
 
 EXPOSE 1337
-# CMD ["yarn", "start"]
+CMD ["yarn", "start"]
