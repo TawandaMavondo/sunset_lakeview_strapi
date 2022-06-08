@@ -33,5 +33,7 @@ services:
     volumes:
       - ./data:/var/lib/postgresql/data
 
-
-  
+volumes:
+  strapidata:
+  database:
+    driver: local 
