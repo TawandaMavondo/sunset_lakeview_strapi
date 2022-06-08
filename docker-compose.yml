@@ -1,8 +1,7 @@
 version: "3"
 services:
   strapiapi:
-    # image: strapi/strapi
-    build: .
+    image: sunsetlakeview:latest
     container_name: sunsetlakeview
     restart: unless-stopped
     depends_on:
