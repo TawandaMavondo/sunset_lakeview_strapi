@@ -13,7 +13,7 @@ ENV NODE_ENV production
 
 ENV GENERATE_SOURCEMAP false
 
-RUN NODE_OPTIONS="--max-old-space-size=1024" yarn build
+RUN yarn build --no-optimization
 
 EXPOSE 1337
 CMD ["yarn", "start"]
