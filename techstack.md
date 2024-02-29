@@ -3,17 +3,17 @@
 ## Tech Stack
 TawandaMavondo/sunset_lakeview_strapi is built on the following main stack:
 
-- [Stripe](https://stripe.com) – Payment Services
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Heroku Postgres](https://www.heroku.com/postgres) – PostgreSQL as a Service
 - [MySQL](http://www.mysql.com) – Databases
 - [PostgreSQL](http://www.postgresql.org/) – Databases
 - [SQLite](http://www.sqlite.org/) – Databases
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Heroku Postgres](https://www.heroku.com/postgres) – PostgreSQL as a Service
-- [ESLint](http://eslint.org/) – Code Review
-- [Yarn](https://yarnpkg.com/) – Front End Package Manager
-- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
 - [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [ESLint](http://eslint.org/) – Code Review
+- [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- [Stripe](https://stripe.com) – Payment Services
+- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -23,17 +23,17 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 TawandaMavondo/sunset_lakeview_strapi is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/97/eW6tXeq3.png' alt='Stripe'/> [Stripe](https://stripe.com) – Payment Services
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2516/original.png' alt='Heroku Postgres'/> [Heroku Postgres](https://www.heroku.com/postgres) – PostgreSQL as a Service
 - <img width='25' height='25' src='https://img.stackshare.io/service/1025/logo-mysql-170x170.png' alt='MySQL'/> [MySQL](http://www.mysql.com) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1071/sqlite.jpg' alt='SQLite'/> [SQLite](http://www.sqlite.org/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2516/original.png' alt='Heroku Postgres'/> [Heroku Postgres](https://www.heroku.com/postgres) – PostgreSQL as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
-- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png' alt='pgvector'/> [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- <img width='25' height='25' src='https://img.stackshare.io/service/97/eW6tXeq3.png' alt='Stripe'/> [Stripe](https://stripe.com) – Payment Services
+- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -44,7 +44,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [TawandaMavondo/sunset_lakeview_strapi](https://github.com/TawandaMavondo/sunset_lakeview_strapi)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|17<br/>Tools used|01/05/24 <br/>Report generated|
+|17<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
